@@ -1,6 +1,6 @@
 # npmtest-wrk
 
-#### test coverage for  [wrk (v1.1.0)](https://github.com/sidorares/node-wrk)  [![npm package](https://img.shields.io/npm/v/npmtest-wrk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wrk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wrk.svg)](https://travis-ci.org/npmtest/node-npmtest-wrk)
+#### basic test coverage for  [wrk (v1.1.0)](https://github.com/sidorares/node-wrk)  [![npm package](https://img.shields.io/npm/v/npmtest-wrk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wrk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wrk.svg)](https://travis-ci.org/npmtest/node-npmtest-wrk)
 
 #### wrk load test tool wrapper and output parser
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wrk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wrk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wrk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wrk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wrk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wrk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wrk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wrk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wrk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wrk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wrk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wrk/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "tap test/*.tap.js"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
